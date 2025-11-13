@@ -1,5 +1,6 @@
 package steps;
 
+import org.testng.annotations.Test;
 import pages.SearchResultsPage;
 
 public class SearchResultsSteps {
@@ -15,5 +16,7 @@ public class SearchResultsSteps {
         searchResultsPage.assertThatTopResultContainsProperAttributeText(text);
         return this;
     }
+
+
 
 }
